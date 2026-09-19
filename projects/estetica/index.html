@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Estética — projeto conceitual de uma clínica de estética com tratamentos faciais e corporais apresentados de forma acolhedora.">
+  <meta name="theme-color" content="#f7f3ec">
+  <meta property="og:title" content="Aura Estética | Cuidado com intenção">
+  <meta property="og:description" content="Conheça a experiência e os tratamentos da Aura Estética, um projeto conceitual criado para portfólio.">
+  <meta property="og:type" content="website">
+  <title>Aura Estética | Cuidado com intenção</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23535f45'/%3E%3Cpath d='M32 14c-7 9-12 17-12 24a12 12 0 0 0 24 0c0-7-5-15-12-24Z' fill='%23f7f3ec'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Aura Estética — início">
+        <span class="brand-symbol" aria-hidden="true">A</span>
+        <span>Aura <small>Estética</small></span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#contato">Contato</a>
+        <a class="button button-small" data-whatsapp hidden>Agendar avaliação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Cuidado estético, no seu tempo</p>
+          <h1>Um momento para cuidar de si com <em>intenção.</em></h1>
+          <p class="hero-text">Tratamentos faciais e corporais apresentados com clareza, atenção individual e respeito ao que você procura.</p>
+          <div class="hero-actions">
+            <a class="button" data-whatsapp hidden>Agendar avaliação</a>
+            <a class="text-link" href="#tratamentos">Conhecer tratamentos <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="concept-note">Projeto conceitual criado para portfólio.</p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img src="assets/images/hero-clinica.webp" width="1122" height="1402" alt="Ambiente conceitual de uma clínica de estética com maca, toalhas e iluminação natural" fetchpriority="high">
+          </div>
+          <div class="hero-seal" aria-hidden="true"><span>A</span><small>CUIDADO · PAUSA · PRESENÇA</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip" aria-label="Princípios da Aura Estética">
+      <div class="container">
+        <span>Atendimento individual</span>
+        <i aria-hidden="true"></i>
+        <span>Escolhas conscientes</span>
+        <i aria-hidden="true"></i>
+        <span>Cuidado em cada detalhe</span>
+      </div>
+    </section>
+
+    <section class="section treatments-section" id="tratamentos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Tratamentos</p>
+            <h2>Cuidados escolhidos para cada momento.</h2>
+          </div>
+          <p>Uma conversa antes do atendimento ajuda a entender preferências e escolher a opção mais adequada para a experiência desejada.</p>
+        </div>
+
+        <div class="treatments-layout">
+          <figure class="treatments-image">
+            <img src="assets/images/cuidados-skincare.webp" width="1400" height="933" alt="Composição conceitual de produtos de skincare sem marca sobre uma bandeja de cerâmica" loading="lazy">
+            <figcaption>Rotinas de cuidado pensadas com calma e atenção.</figcaption>
+          </figure>
+
+          <div class="treatment-list">
+            <article>
+              <span>01</span><div><h3>Limpeza de Pele</h3><p>Um cuidado dedicado à higienização e ao conforto da pele.</p><a data-whatsapp data-treatment="limpeza" hidden>Quero saber mais</a></div>
+            </article>
+            <article>
+              <span>02</span><div><h3>Peeling</h3><p>Atendimento estético definido após uma conversa sobre a sua rotina.</p><a data-whatsapp data-treatment="peeling" hidden>Quero saber mais</a></div>
+            </article>
+            <article>
+              <span>03</span><div><h3>Drenagem Linfática</h3><p>Uma experiência corporal conduzida com movimentos suaves e atenção.</p><a data-whatsapp data-treatment="drenagem" hidden>Quero saber mais</a></div>
+            </article>
+            <article>
+              <span>04</span><div><h3>Massagem Modeladora</h3><p>Cuidado corporal feito de forma individual e respeitando preferências.</p><a data-whatsapp data-treatment="modeladora" hidden>Quero saber mais</a></div>
+            </article>
+            <article>
+              <span>05</span><div><h3>Tratamento Facial</h3><p>Protocolo estético organizado a partir de uma avaliação inicial.</p><a data-whatsapp data-treatment="facial" hidden>Quero saber mais</a></div>
+            </article>
+            <article>
+              <span>06</span><div><h3>Cuidados Corporais</h3><p>Opções de autocuidado para uma pausa tranquila na rotina.</p><a data-whatsapp data-treatment="corporal" hidden>Quero saber mais</a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-index" aria-hidden="true">A/02</div>
+        <div class="about-copy">
+          <p class="eyebrow">Sobre a Aura</p>
+          <h2>Estética também pode ser uma pausa.</h2>
+          <p>A Aura Estética é um espaço conceitual dedicado a cuidados faciais e corporais. A proposta é simples: receber cada pessoa com atenção, conversar sobre o que ela procura e tornar o atendimento confortável do início ao fim.</p>
+          <p>Aqui, o cuidado não começa em uma promessa. Começa pela escuta.</p>
+        </div>
+        <blockquote>“Sentir-se bem também mora nos pequenos rituais.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experiencia">
+      <div class="container experience-grid">
+        <figure class="experience-image">
+          <img src="assets/images/experiencia-ambiente.webp" width="1000" height="1250" alt="Detalhe conceitual de uma sala de atendimento com toalhas, cerâmica e luz natural" loading="lazy">
+        </figure>
+        <div class="experience-content">
+          <p class="eyebrow">A experiência</p>
+          <h2>Do primeiro contato ao momento do atendimento.</h2>
+          <div class="experience-list">
+            <article><span>01</span><div><h3>Atendimento individual</h3><p>Tempo para entender o que você procura, sem pressa.</p></div></article>
+            <article><span>02</span><div><h3>Ambiente acolhedor</h3><p>Um espaço organizado para tornar a experiência mais tranquila.</p></div></article>
+            <article><span>03</span><div><h3>Cuidado nos detalhes</h3><p>Da preparação do ambiente à atenção durante cada etapa.</p></div></article>
+            <article><span>04</span><div><h3>Avaliação antes do atendimento</h3><p>Uma conversa inicial para alinhar preferências e possibilidades.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="journey-heading">
+          <p class="eyebrow">Como funciona</p>
+          <h2 id="journey-title">Uma jornada simples, sem complicação.</h2>
+        </div>
+        <ol class="journey-list">
+          <li><span>01</span><h3>Entre em contato</h3><p>Comece a conversa pelo WhatsApp.</p></li>
+          <li><span>02</span><h3>Conte o que procura</h3><p>Compartilhe suas preferências e dúvidas.</p></li>
+          <li><span>03</span><h3>Agende sua avaliação</h3><p>Escolha um horário disponível para conversar.</p></li>
+          <li><span>04</span><h3>Receba orientação</h3><p>Entenda as possibilidades para o atendimento.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section final-cta" id="contato">
+      <div class="container cta-panel">
+        <div>
+          <p class="eyebrow">Seu momento</p>
+          <h2>Que tal reservar um tempo para você?</h2>
+        </div>
+        <div class="cta-copy">
+          <p>Converse com a Aura e tire suas dúvidas antes de escolher o atendimento.</p>
+          <a class="button button-light" data-whatsapp hidden>Agendar minha avaliação</a>
+          <a class="text-link text-link-light" href="#tratamentos" data-contact-fallback>Conhecer tratamentos <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio"><span class="brand-symbol" aria-hidden="true">A</span><span>Aura <small>Estética</small></span></a>
+        <p>Cuidado estético apresentado com atenção e acolhimento.</p>
+        <small>Projeto conceitual para portfólio.</small>
+      </div>
+      <div class="footer-column">
+        <h2>Navegação</h2>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-column" data-contact-column>
+        <h2>Contato</h2>
+        <a data-whatsapp hidden>WhatsApp</a>
+        <a data-instagram hidden>Instagram</a>
+        <p data-address hidden></p>
+      </div>
+      <div class="footer-column" data-hours-column>
+        <h2>Horários</h2>
+        <p data-hours></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="current-year"></span> Aura Estética.</p>
+      <p>Projeto demonstrativo, sem vínculo com uma clínica real.</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" data-whatsapp aria-label="Agendar avaliação pelo WhatsApp" hidden>WhatsApp</a>
+</body>
+</html>
