@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caio Nunes Treinamento — projeto conceitual de acompanhamento presencial, online e plano de treino personalizado.">
+  <meta name="theme-color" content="#0b1530">
+  <meta property="og:title" content="Caio Nunes | Treinamento com direção">
+  <meta property="og:description" content="Acompanhamento individual para organizar o treino de acordo com objetivos e rotina.">
+  <meta property="og:type" content="website">
+  <title>Caio Nunes | Treinamento com direção</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b1530'/%3E%3Cpath d='M15 17h15v8H23v14h7v8H15zm34 0H34v30h8V25h7z' fill='%23d8ff4f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Caio Nunes — início">
+        <span class="brand-mark" aria-hidden="true">CN</span>
+        <span>Caio Nunes<small>Treinamento</small></span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#acompanhamento">Acompanhamento</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a class="button button-small" data-whatsapp hidden>Quero começar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span>Personal trainer</span> · Projeto conceitual</p>
+          <h1>Treino com direção para caber na sua <em>rotina.</em></h1>
+          <p>Acompanhamento individual para quem quer começar, retomar ou organizar os exercícios com um plano claro e possível de seguir.</p>
+          <div class="hero-actions">
+            <a class="button" data-whatsapp hidden>Quero começar <span aria-hidden="true">↗</span></a>
+            <a class="button" href="#acompanhamento" data-whatsapp-fallback>Quero começar <span aria-hidden="true">↓</span></a>
+            <a class="button button-ghost" href="#como-funciona">Como funciona</a>
+          </div>
+          <div class="hero-signature">
+            <strong>Caio Nunes</strong>
+            <span>Personagem fictício criado para esta demonstração.</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/images/caio-nunes-hero.webp" width="1122" height="1402" alt="Personagem fictício Caio Nunes preparando uma faixa elástica em um estúdio de treino" fetchpriority="high">
+          <div class="image-code" aria-hidden="true">CN / 01</div>
+          <div class="hero-tag" aria-hidden="true"><span>PLANO</span><span>ROTINA</span><span>CONSISTÊNCIA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="Características do acompanhamento">
+      <div class="container">
+        <span>Treino organizado</span><i></i><span>Acompanhamento individual</span><i></i><span>Presencial ou online</span>
+      </div>
+    </section>
+
+    <section class="section audience-section" aria-labelledby="audience-title">
+      <div class="container audience-layout">
+        <div class="section-intro">
+          <p class="kicker">Para quem é</p>
+          <h2 id="audience-title">Um acompanhamento que parte da sua realidade.</h2>
+        </div>
+        <div class="audience-grid">
+          <article><span>01</span><h3>Está começando</h3><p>Para entender como organizar os primeiros treinos com mais segurança e clareza.</p></article>
+          <article><span>02</span><h3>Quer criar consistência</h3><p>Para transformar o treino em uma parte possível da rotina, sem fórmulas prontas.</p></article>
+          <article><span>03</span><h3>Prefere atenção individual</h3><p>Para ter um acompanhamento alinhado às suas dúvidas, disponibilidade e objetivos.</p></article>
+          <article><span>04</span><h3>Busca uma rotina organizada</h3><p>Para saber o que fazer em cada sessão e acompanhar o plano com mais autonomia.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section coaching-section" id="acompanhamento">
+      <div class="container">
+        <div class="coaching-heading">
+          <p class="kicker kicker-light">Acompanhamento</p>
+          <h2>Escolha o formato que combina com seu momento.</h2>
+          <p>As modalidades abaixo são conceituais e mostram como o serviço poderia ser apresentado. Valores e condições seriam definidos com o profissional real.</p>
+        </div>
+
+        <div class="coaching-list">
+          <article>
+            <div class="mode-number">01</div>
+            <div><p class="mode-label">No mesmo espaço</p><h3>Presencial</h3></div>
+            <p>Encontros em horário combinado, com orientação durante a execução e organização do treino.</p>
+            <a class="mode-link" data-whatsapp data-mode="presencial" hidden>Tenho interesse <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <div class="mode-number">02</div>
+            <div><p class="mode-label">De onde estiver</p><h3>Online</h3></div>
+            <p>Acompanhamento à distância, com alinhamentos sobre rotina e acesso ao plano organizado.</p>
+            <a class="mode-link" data-whatsapp data-mode="online" hidden>Tenho interesse <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <div class="mode-number">03</div>
+            <div><p class="mode-label">Para treinar com autonomia</p><h3>Plano personalizado</h3></div>
+            <p>Estrutura de exercícios montada a partir da conversa inicial e da rotina informada.</p>
+            <a class="mode-link" data-whatsapp data-mode="plano" hidden>Tenho interesse <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="como-funciona">
+      <div class="container process-grid">
+        <div class="process-visual">
+          <img src="assets/images/equipamentos-treino.webp" width="1400" height="933" alt="Equipamentos de treino, faixa elástica e caderno organizados em um banco" loading="lazy">
+          <span aria-hidden="true">PLANEJAR / EXECUTAR / AJUSTAR</span>
+        </div>
+        <div class="process-content">
+          <p class="kicker">Como funciona</p>
+          <h2>Do primeiro contato ao início do plano.</h2>
+          <ol>
+            <li><span>01</span><div><h3>Primeiro contato</h3><p>Você inicia a conversa e conta o que está procurando.</p></div></li>
+            <li><span>02</span><div><h3>Objetivos e rotina</h3><p>O contexto do treino é organizado a partir das informações compartilhadas.</p></div></li>
+            <li><span>03</span><div><h3>Formato do acompanhamento</h3><p>Presencial, online ou plano personalizado: a escolha é alinhada em conjunto.</p></div></li>
+            <li><span>04</span><div><h3>Início do plano</h3><p>Você recebe as orientações necessárias para começar a rotina combinada.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="kicker kicker-light">Marca pessoal</p>
+          <h2>Direção sem discurso pronto.</h2>
+          <p>Caio Nunes é um personagem fictício criado para demonstrar como um personal trainer poderia apresentar seu trabalho com clareza e personalidade.</p>
+          <p>A proposta da marca é mostrar um profissional próximo, organizado e atento à rotina de cada pessoa — sem prometer resultados e sem inventar credenciais.</p>
+          <div class="about-name"><strong>Caio Nunes</strong><span>PERSONAL TRAINER FICTÍCIO</span></div>
+        </div>
+        <figure class="about-image">
+          <img src="assets/images/preparacao-treino.webp" width="1400" height="933" alt="Personagem fictício Caio Nunes organizando equipamentos antes de uma sessão" loading="lazy">
+          <figcaption>Preparação e organização fazem parte do acompanhamento.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="capture-section" id="contato">
+      <div class="container capture-inner">
+        <div class="capture-code" aria-hidden="true">03</div>
+        <div>
+          <p class="kicker">Próximo passo</p>
+          <h2>Vamos conversar sobre como o treino pode entrar na sua rotina?</h2>
+        </div>
+        <div class="capture-action">
+          <p>Comece com uma conversa simples sobre o que você procura.</p>
+          <a class="button" data-whatsapp hidden>Quero conversar sobre meu treino <span aria-hidden="true">↗</span></a>
+          <a class="button" href="#acompanhamento" data-whatsapp-fallback>Conhecer o acompanhamento <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">CN</span><span>Caio Nunes<small>Treinamento</small></span></a>
+        <p>Marca pessoal fictícia criada para demonstração de portfólio.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Navegação</h2>
+        <a href="#acompanhamento">Acompanhamento</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-column" data-contact-column>
+        <h2>Contato</h2>
+        <a data-whatsapp hidden>WhatsApp</a>
+        <a data-instagram hidden>Instagram</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="current-year"></span> Caio Nunes Treinamento.</p>
+      <p>Projeto conceitual — profissional fictício.</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" data-whatsapp aria-label="Conversar sobre acompanhamento pelo WhatsApp" hidden>Quero começar</a>
+</body>
+</html>
